@@ -157,17 +157,6 @@ header {
     font-size: 12px;
 }
 
-.tag-container {
-    position: absolute;
-    display: flex;
-    left: 0;
-    bottom: 30px;
-}
-
-.tag-container .tag {
-    margin-right: 3px;
-}
-
 .container-price {
     display: flex;
 }
@@ -176,12 +165,23 @@ header {
     padding-right: 5px;
 }
 
+
 /*-------------------
         TAG
 ---------------------*/
 
 .tag {
     padding: 3px 6px; 
+}
+
+.tag-container {
+    position: absolute;
+    display: flex;
+    left: 0;
+    bottom: 60px;
+}
+.tag-container .tag {
+    margin-right: 3px;
 }
 
 .tag-top {
@@ -215,6 +215,14 @@ header {
 
 .card:hover .img-regular {
     display: none;
+}
+
+.img-hover {
+    padding-bottom: 4px;
+}
+
+.card:hover .fa-heart {
+    color: red;
 }
 
 /*-------------------
