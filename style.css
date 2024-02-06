@@ -8,7 +8,76 @@
     box-sizing: border-box;
 }
 
-
 /*-------------------
         GENERAL
 ---------------------*/
+body {
+    font-family: 'Relaway', sans-serif;
+}
+
+/*-------------------
+        LAYOUT
+---------------------*/
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+/*-------------------
+        TYPOGRAPHY
+---------------------*/
+
+nav ul li a {
+    font-size: 8px;
+    font-weight: 600;
+}
+
+/*-------------------
+        HEADER
+---------------------*/
+
+header {
+    background-color: #ff6900;
+}
+
+.header-container {
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.menu-container ul {
+    display: flex;
+}
+
+.menu-container ul li {
+    list-style: none;
+}
+
+.menu-container ul li a {
+    color: #fff;
+    padding: 0 6px;
+    text-decoration: none;
+}
+
+.logo-container img {
+    height: 15px;
+}
+
+.icon-container i {
+    font-size: 10px;
+    color: #fff;
+}
