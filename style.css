@@ -36,6 +36,10 @@ body {
     margin-right: -10px;
 }
 
+.row > * {
+    padding: 0 10px;
+}
+
 .col-33 {
     width: calc(100% / 3);
     padding-bottom: 30px;
@@ -125,15 +129,16 @@ footer ul li a {
 header {
     background-color: #ff6900;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: 100;
-    padding: 10px 10px 10px 0;
+    z-index: 10;
+    padding: 10px 0;
 }
 
 .menu-container {
     width: 25%;
     display: flex;
-    padding-left: 5px;
 }
 
 .logo-container {
@@ -146,7 +151,6 @@ header {
     width: 25%;
     display: flex;
     justify-content: flex-end;
-    padding-right: 10px;
 }
 
 .logo-container img {
@@ -165,7 +169,6 @@ header {
 
 .card {
     position: relative;
-    margin-right: 10px;
     margin-bottom: 5px;
 }
 
