@@ -127,21 +127,34 @@ header {
     position: fixed;
     width: 100%;
     z-index: 100;
-}
-
-.header-container {
-    justify-content: space-between;
     padding: 10px 10px 10px 0;
 }
 
+.menu-container {
+    width: 25%;
+    display: flex;
+}
+
+.logo-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-container {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
 
 .logo-container img {
-    height: 15px;
+    height: 20px;
 }
 
 .icon-container i {
     font-size: 10px;
     color: #fff;
+    padding-left: 5px;
 }
 
 /*-------------------
