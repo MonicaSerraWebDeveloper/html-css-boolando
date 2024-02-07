@@ -166,6 +166,7 @@ header {
 .card {
     position: relative;
     margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 .card i {
@@ -220,6 +221,10 @@ header {
         HOVER
 ---------------------*/
 
+.card .img-regular {
+    display: block;
+}
+
 .img-hover {
     display: none;
 }
@@ -230,10 +235,6 @@ header {
 
 .card:hover .img-regular {
     display: none;
-}
-
-.img-hover {
-    padding-bottom: 4px;
 }
 
 .card:hover .fa-heart {
